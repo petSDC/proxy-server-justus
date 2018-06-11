@@ -1,13 +1,15 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
+  "name": "petsy",
+  "version": "1.0.0",
+  "description": "Proxy server for Petsy modules",
+  "author": "Jesse",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {},
+  "scripts": {
+    "server-dev": "nodemon server/server.js"
+  },
   "dependencies": {
     "express": "^4.16.3"
   },
