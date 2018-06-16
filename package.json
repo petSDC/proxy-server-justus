@@ -11,6 +11,7 @@
     "server-dev": "nodemon server/server.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.3"
   },
   "devDependencies": {

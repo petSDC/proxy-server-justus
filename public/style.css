@@ -1,0 +1,22 @@
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+.col1 {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.col2 {
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+img[data-module="carousel"] {
+  max-width: 570px;
+}
+
+img[data-module="nav-bar"] {
+  max-width: 1366px;
+}
