@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const axios = require('axios');
+const port = process.env.port || 3000;
 
 const app = express();
 app.use(express.json());
@@ -72,4 +73,4 @@ app.get('/:id/details', (req, res) => {
     .catch(err => res.status(500).send(err));
 });
 
-app.listen(3000, () => console.log('Express server listening on port 3000'));
+app.listen(port, () => console.log(`Express server listening on port ${port}`));
