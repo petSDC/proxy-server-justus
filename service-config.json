@@ -1,0 +1,3 @@
+{ 
+  "buying": "http://localhost:8001/:id/dist/buying"
+}
